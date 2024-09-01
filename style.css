@@ -849,11 +849,13 @@ h3.my-profession
     }
     .home .home-img::after
     {
-        display: none;
+        right: -12rem;
+        bottom: -25px;
     }
     .home .home-img::before
     {
-       display: none;
+        left: -5px;
+        top: 25px;
     }
 }
 @media (max-width:767px)
